@@ -18,14 +18,14 @@
 #genero	styles.css	/^body #text, #estudios, #genero, #deportes, #comentarios{$/;"	i
 Formulario web	index.html	/^        <h1 id="title">Formulario web<\/h1>$/;"	h
 body #text	styles.css	/^body #text, #estudios, #genero, #deportes, #comentarios{$/;"	i
-checkbox	index.html	/^                <div id="checkbox">$/;"	I
+checkbox	index.html	/^                    <div id="checkbox">$/;"	I
 comentarios	index.html	/^                <div id="comentarios">$/;"	I
 deportes	index.html	/^                <div id="deportes">$/;"	I
 description	index.html	/^        <p id="description">Gracias por tomarte el tiempo de contestar éstas preguntas<\/p>$/;"	I
-dropdown	index.html	/^                <label id="dropdown">Nivel de estudios<\/label>$/;"	I
-dropdown	index.html	/^                <select name="estudios" id="dropdown">$/;"	I
-email	index.html	/^                <input type="email" placeholder="Email" name="email" id="email" required\/>$/;"	I
-email-label	index.html	/^                <label id="email-label" for="email">Email:<\/label>$/;"	I
+dropdown	index.html	/^                    <label id="dropdown">Nivel de estudios<\/label>$/;"	I
+dropdown	index.html	/^                    <select name="estudios" id="dropdown">$/;"	I
+email	index.html	/^                    <input type="email" placeholder="Email" name="email" id="email" required\/>$/;"	I
+email-label	index.html	/^                    <label id="email-label" for="email">Email:<\/label>$/;"	I
 estudios	index.html	/^                <div id="estudios">$/;"	I
 form	index.html	/^            <form id="survey-form" method="GET" accept-charset="utf-8" id="form">$/;"	I
 form	styles.css	/^form{$/;"	s
@@ -33,12 +33,12 @@ form #radio	styles.css	/^form #radio, #checkbox{$/;"	i
 form #text	styles.css	/^form #text, #comentarios, #estudios{$/;"	i
 genero	index.html	/^                <div id="genero">$/;"	I
 html	styles.css	/^html{$/;"	s
-name	index.html	/^                <input type="text" placeholder="Nombre" name="name" id="name" required\/>$/;"	I
-name-label	index.html	/^                <label id="name-label" for="nombre">Nombre:<\/label>$/;"	I
-number	index.html	/^                <input type="number" placeholder="#" min="0" max="140" name="number" id="number"/;"	I
-number-label	index.html	/^                <label id="number-label" for="numero">Edad:<\/label>$/;"	I
-radio	index.html	/^                <div id="radio">$/;"	I
-submit	index.html	/^                <button id="submit" type="submit">Enviar<\/button>$/;"	I
+name	index.html	/^                    <input type="text" placeholder="Nombre" name="name" id="name" required\/>$/;"	I
+name-label	index.html	/^                    <label id="name-label" for="nombre">Nombre:<\/label>$/;"	I
+number	index.html	/^                    <input type="number" placeholder="#" min="0" max="140" name="number" id="num/;"	I
+number-label	index.html	/^                    <label id="number-label" for="numero">Edad:<\/label>$/;"	I
+radio	index.html	/^                    <div id="radio">$/;"	I
+submit	index.html	/^                    <button id="submit" type="submit">Enviar<\/button>$/;"	I
 survey-form	index.html	/^            <form id="survey-form" method="GET" accept-charset="utf-8" id="form">$/;"	I
 text	index.html	/^                <div id="text">$/;"	I
 title	index.html	/^        <h1 id="title">Formulario web<\/h1>$/;"	I
