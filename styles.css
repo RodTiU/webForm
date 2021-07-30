@@ -10,7 +10,14 @@ form{
     margin: auto 20vw;
     align-content: center;
 }
+form #text, #comentarios, #estudios{
+    display: flex;
+    flex-direction: column;
+}
 form #radio, #checkbox{
     display: flex;
     flex-direction: row;
+}
+body #text, #estudios, #genero, #deportes, #comentarios{
+    margin: 10px;
 }
