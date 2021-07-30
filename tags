@@ -10,15 +10,22 @@
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	//
 Formulario web	index.html	/^        <h1 id="title">Formulario web<\/h1>$/;"	h
+button	styles.css	/^label, input, select, textarea, button{$/;"	s
 description	index.html	/^        <p id="description">Gracias por tomarte el tiempo de contestar éstas preguntas<\/p>$/;"	I
 dropdown	index.html	/^                <label id="dropdown">Nivel de estudios<\/label>$/;"	I
 dropdown	index.html	/^                <select name="estudios" id="dropdown">$/;"	I
 email	index.html	/^                <input type="email" placeholder="Email" name="email" id="email" required\/>$/;"	I
 email-label	index.html	/^                <label id="email-label" for="email">Email:<\/label>$/;"	I
+form	index.html	/^            <form id="survey-form" method="GET" accept-charset="utf-8" id="form">$/;"	I
+html	styles.css	/^html{$/;"	s
+input	styles.css	/^label, input, select, textarea, button{$/;"	s
+label	styles.css	/^label, input, select, textarea, button{$/;"	s
 name	index.html	/^                <input type="text" placeholder="Nombre" name="name" id="name" required\/>$/;"	I
 name-label	index.html	/^                <label id="name-label" for="nombre">Nombre:<\/label>$/;"	I
 number	index.html	/^                <input type="number" placeholder="#" min="0" max="140" name="number" id="number"/;"	I
-number-label	index.html	/^                <label id="number-label" for="numero">Edad:<p>(opcional)<\/p><\/label>$/;"	I
+number-label	index.html	/^                <label id="number-label" for="numero">Edad:<\/label>$/;"	I
+select	styles.css	/^label, input, select, textarea, button{$/;"	s
 submit	index.html	/^                <button id="submit" type="submit">Enviar<\/button>$/;"	I
-survey-form	index.html	/^            <form id="survey-form" method="GET" accept-charset="utf-8">$/;"	I
+survey-form	index.html	/^            <form id="survey-form" method="GET" accept-charset="utf-8" id="form">$/;"	I
+textarea	styles.css	/^label, input, select, textarea, button{$/;"	s
 title	index.html	/^        <h1 id="title">Formulario web<\/h1>$/;"	I

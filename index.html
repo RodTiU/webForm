@@ -6,21 +6,23 @@
         <meta name="viewport" content="width=device-width" />
         <title>Web Form</title>
     </head>
+    <!-- links de estilos y otros -->
+    <link rel="stylesheet" href="styles.css" type="text/css" media="screen" title="no title" charset="utf-8">
     <!-- Título del formulario -->
     <header>
         <h1 id="title">Formulario web</h1>
         <p id="description">Gracias por tomarte el tiempo de contestar éstas preguntas</p>
     </header>
     <body>
-        <div>
+        <div class="bodybg">
             <!-- Inicia del formulario -->
-            <form id="survey-form" method="GET" accept-charset="utf-8">
+            <form id="survey-form" method="GET" accept-charset="utf-8" id="form">
                 <!-- Entrada de tipos de datos por texto, email y entrada numérica -->
                 <label id="name-label" for="nombre">Nombre:</label>
                 <input type="text" placeholder="Nombre" name="name" id="name" required/>
                 <label id="email-label" for="email">Email:</label>
                 <input type="email" placeholder="Email" name="email" id="email" required/>
-                <label id="number-label" for="numero">Edad:<p>(opcional)</p></label>
+                <label id="number-label" for="numero">Edad:</label>
                 <input type="number" placeholder="#" min="0" max="140" name="number" id="number" value="0"/>
                 <label id="dropdown">Nivel de estudios</label>
                 <!-- Selección de datos en forma de cascada dorpdown -->

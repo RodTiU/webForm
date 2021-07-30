@@ -1,2 +1,11 @@
 /* estilos aplicados a mi archivo index.html */
-
+html{
+    text-align: center;
+    background: linear-gradient(#EEEEEE, #DDDDDD)
+}
+label, input, select, textarea, button{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    margin: 2vh 20vmax;    
+}
