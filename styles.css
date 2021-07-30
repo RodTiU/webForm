@@ -1,13 +1,26 @@
 /* estilos aplicados a mi archivo index.html */
 html{
     text-align: center;
+    font-size: 1.5vw;
     background: linear-gradient(#EEEEEE, #DDDDDD)
+}
+body #masterdiv{
+    background: gray;
+    border-radius: 5px;
+    margin: 10vh 30vw;
+} 
+@media (max-width: 500px){
+    html{
+        font-size: 3vw;
+    }
+    body #masterdiv{
+        margin: 10vh 15vw;
+    }
 }
 form{
     display: flex;
     flex-direction: column;
     text-align: start;
-    margin: auto 20vw;
     align-content: center;
 }
 form #text, #comentarios, #estudios{
@@ -18,6 +31,6 @@ form #radio, #checkbox{
     display: flex;
     flex-direction: row;
 }
-body #text, #estudios, #genero, #deportes, #comentarios{
+form #text, #estudios, #genero, #deportes, #comentarios{
     margin: 10px;
 }
