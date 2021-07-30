@@ -1,0 +1,59 @@
+<!-- Formulario web -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Web Form</title>
+    </head>
+    <!-- Título del formulario -->
+    <header>
+        <h1 id="title">Formulario web</h1>
+        <p id="description">Gracias por tomarte el tiempo de contestar éstas preguntas</p>
+    </header>
+    <body>
+        <div>
+            <!-- Inicia del formulario -->
+            <form id="survey-form" method="GET" accept-charset="utf-8">
+                <!-- Entrada de tipos de datos por texto, email y entrada numérica -->
+                <label id="name-label" for="nombre">Nombre:</label>
+                <input type="text" placeholder="Nombre" name="name" id="name" required/>
+                <label id="email-label" for="email">Email:</label>
+                <input type="email" placeholder="Email" name="email" id="email" required/>
+                <label id="number-label" for="numero">Edad:<p>(opcional)</p></label>
+                <input type="number" placeholder="#" min="0" max="140" name="number" id="number" value="0"/>
+                <label id="dropdown">Nivel de estudios</label>
+                <!-- Selección de datos en forma de cascada dorpdown -->
+                <select name="estudios" id="dropdown">
+                   <option value="Primaria">Primaria</option>
+                   <option value="Secundaria">Secundaria</option>
+                   <option value="Preparatoria">Preparatoria</option>
+                   <option value="Universidad">Universidad</option>
+                   <option value="Posgrado">Posgrado</option>
+                </select>
+                <!-- Botones de radio correspondiente a la selección de género -->
+                <label>Género</label>
+                <label for="name">Masculino</label>
+                <input type="radio" value="Masculino" name="name"/>
+                <label for="name">Femenino</label>
+                <input type="radio" value="Femenino" name="name"/>
+                <!-- Botones tipo checkbox, para seleccionar gustos o aficiones -->
+                <label>Deportes Favoritos</label>
+                <label for="deportes">Fútbol</label>
+                <input type="checkbox" value="Fútbol" name="deportes"/>
+                <label for="deportes">Basquétbol</label>
+                <input type="checkbox" value="Basquétbol" name="deportes"/>
+                <label for="deportes">Box</label>
+                <input type="checkbox" value="Box" name="deportes"/>
+                <!-- area de texta comentarios -->
+                <label for="comentarios">Comentarios adicionales</label>
+                <textarea name="comentarios" placeholder="Comentarios"></textarea>
+                <button id="submit" type="submit">Enviar</button>
+            </form>
+        </div>
+    </body>
+    <footer>
+        footer content
+    </footer>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
