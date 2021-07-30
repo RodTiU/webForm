@@ -18,6 +18,7 @@
             <!-- Inicia del formulario -->
             <form id="survey-form" method="GET" accept-charset="utf-8" id="form">
                 <!-- Entrada de tipos de datos por texto, email y entrada numérica -->
+                <div id="text">
                 <label id="name-label" for="nombre">Nombre:</label>
                 <input type="text" placeholder="Nombre" name="name" id="name" required/>
                 <label id="email-label" for="email">Email:</label>
@@ -25,6 +26,7 @@
                 <label id="number-label" for="numero">Edad:</label>
                 <input type="number" placeholder="#" min="0" max="140" name="number" id="number" value="0"/>
                 <label id="dropdown">Nivel de estudios</label>
+                </div>
                 <!-- Selección de datos en forma de cascada dorpdown -->
                 <select name="estudios" id="dropdown">
                    <option value="Primaria">Primaria</option>
@@ -35,18 +37,22 @@
                 </select>
                 <!-- Botones de radio correspondiente a la selección de género -->
                 <label>Género</label>
+                <div id="radio">
                 <label for="name">Masculino</label>
                 <input type="radio" value="Masculino" name="name"/>
                 <label for="name">Femenino</label>
                 <input type="radio" value="Femenino" name="name"/>
+                </div>
                 <!-- Botones tipo checkbox, para seleccionar gustos o aficiones -->
-                <label>Deportes Favoritos</label>
+                <label>Deportes favoritos</label>
+                <div id="checkbox">
                 <label for="deportes">Fútbol</label>
                 <input type="checkbox" value="Fútbol" name="deportes"/>
                 <label for="deportes">Basquétbol</label>
                 <input type="checkbox" value="Basquétbol" name="deportes"/>
                 <label for="deportes">Box</label>
                 <input type="checkbox" value="Box" name="deportes"/>
+                </div>
                 <!-- area de texta comentarios -->
                 <label for="comentarios">Comentarios adicionales</label>
                 <textarea name="comentarios" placeholder="Comentarios"></textarea>
