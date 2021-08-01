@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/rodolfo/Projects/freeCodeCamp/2. Formulario web/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+#checkbox	styles.css	/^form #radio, #checkbox{$/;"	i
+#comentarios	styles.css	/^form #text, #comentarios, #estudios{$/;"	i
+#comentarios	styles.css	/^form #text, #estudios, #genero, #deportes, #comentarios{$/;"	i
+#deportes	styles.css	/^form #text, #estudios, #genero, #deportes, #comentarios{$/;"	i
+#estudios	styles.css	/^form #text, #comentarios, #estudios{$/;"	i
+#estudios	styles.css	/^form #text, #estudios, #genero, #deportes, #comentarios{$/;"	i
+#genero	styles.css	/^form #text, #estudios, #genero, #deportes, #comentarios{$/;"	i
+Formulario web	index.html	/^            <h1 id="title">Formulario web<\/h1>$/;"	h
+body #masterdiv	styles.css	/^body #masterdiv{$/;"	i
+button	styles.css	/^button{$/;"	s
+checkbox	index.html	/^                        <div id="checkbox">$/;"	I
+comentarios	index.html	/^                    <div id="comentarios">$/;"	I
+deportes	index.html	/^                    <div id="deportes">$/;"	I
+description	index.html	/^            <p id="description">Gracias por tomarte el tiempo de contestar éstas preguntas<\/p>$/;"	I
+dropdown	index.html	/^                        <label id="dropdown">Nivel de estudios<\/label>$/;"	I
+dropdown	index.html	/^                        <select name="estudios" id="dropdown">$/;"	I
+email	index.html	/^                        <input type="email" placeholder="Email" name="email" id="email" required/;"	I
+email-label	index.html	/^                        <label id="email-label" for="email">Email:<\/label>$/;"	I
+estudios	index.html	/^                    <div id="estudios">$/;"	I
+form	index.html	/^                <form id="survey-form" method="GET" accept-charset="utf-8" id="form">$/;"	I
+form	styles.css	/^form{$/;"	s
+form #radio	styles.css	/^form #radio, #checkbox{$/;"	i
+form #text	styles.css	/^form #text, #comentarios, #estudios{$/;"	i
+form #text	styles.css	/^form #text, #estudios, #genero, #deportes, #comentarios{$/;"	i
+genero	index.html	/^                    <div id="genero">$/;"	I
+html	styles.css	/^html{$/;"	s
+html .content	styles.css	/^html .content{$/;"	c
+input	styles.css	/^textarea, input{$/;"	s
+masterdiv	index.html	/^            <div id="masterdiv">$/;"	I
+name	index.html	/^                        <input type="text" placeholder="Nombre" name="name" id="name" required\//;"	I
+name-label	index.html	/^                        <label id="name-label" for="nombre">Nombre:<\/label>$/;"	I
+number	index.html	/^                        <input type="number" placeholder="#" min="0" max="140" name="number" id=/;"	I
+number-label	index.html	/^                        <label id="number-label" for="numero">Edad:<\/label>$/;"	I
+radio	index.html	/^                        <div id="radio">$/;"	I
+select	styles.css	/^select{$/;"	s
+submit	index.html	/^                        <button id="submit" type="submit">Submit<\/button>$/;"	I
+survey-form	index.html	/^                <form id="survey-form" method="GET" accept-charset="utf-8" id="form">$/;"	I
+text	index.html	/^                    <div id="text">$/;"	I
+textarea	styles.css	/^textarea, input{$/;"	s
+title	index.html	/^            <h1 id="title">Formulario web<\/h1>$/;"	I
