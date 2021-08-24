@@ -1,19 +1,19 @@
 /* estilos aplicados a mi archivo index.html */
-html{
+html {
     text-align: center;
     font-size: 1.5vw;
     background: url(silver-955496_640.jpg);
     background-size: 40vw;
     background-color: #262626;
-    color: #FFFFFF;
-    font-family: 'Quicksand', sans-serif;
+    color: #ffffff;
+    font-family: "Quicksand", sans-serif;
     padding-bottom: 15vh;
     width: 100vw;
     height: 100vh;
     font-size: 2vw;
 }
-body form{
-    color: #EEEEEE;
+body form {
+    color: #eeeeee;
     background: hsla(0, 15%, 15%, 0.5);
     border-radius: 5px;
     margin: 3vh 25vw;
@@ -23,32 +23,40 @@ body form{
     flex-direction: column;
     text-align: start;
     align-content: center;
-} 
-form #text, #estudios, #genero, #deportes, #comentarios{
+}
+form #text,
+#estudios,
+#genero,
+#deportes,
+#comentarios {
     margin: 10px;
 }
-form #text, #comentarios, #estudios{
+form #text,
+#comentarios,
+#estudios {
     display: flex;
     flex-direction: column;
 }
-form #radio, #checkbox{
+form #radio,
+#checkbox {
     display: flex;
     flex-direction: row;
 }
-textarea, input{
+textarea,
+input {
     border-radius: 5px;
     margin-bottom: 10px;
     height: 3.5vh;
-    background-color: hsla(0,20%,20%,0.5);
+    background-color: hsla(0, 20%, 20%, 0.5);
     border: black;
-    color: #CCCCCC;
+    color: #cccccc;
 }
-select{
-    background-color: hsla(0,20%,20%,0.5);
-    color: #CCCCCC;
+select {
+    background-color: hsla(0, 20%, 20%, 0.5);
+    color: #cccccc;
     border: black;
 }
-button{
+button {
     background-color: seagreen;
     color: white;
     border: palegreen;

@@ -1,73 +1,76 @@
 <!-- Formulario web -->
 <!DOCTYPE html>
 <html>
-    <link rel="preconnect" href="https://fonts.googleapis.com"> 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width" />
-        <title>Web Form</title>
-    </head>
-    <!-- links de estilos y otros -->
-    <link rel="stylesheet" href="styles.css" type="text/css" media="screen" title="no title" charset="utf-8">
-        <!-- Título del formulario -->
-    <header style="text-shadow: 2px 0 0 black">
-        <h1 id="title">Formulario web</h1>
-        <p id="description">Gracias por tomarte el tiempo de contestar éstas preguntas</p>
-    </header>
-    <body>
-        <!-- Inicia del formulario -->
-        <form id="survey-form" method="GET" accept-charset="utf-8" id="form">
-            <!-- Entrada de tipos de datos por texto, email y entrada numérica -->
-            <div id="text">
-                <label id="name-label" for="nombre">Nombre:</label>
-                <input type="text" placeholder="Nombre" name="name" id="name" required/>
-                <label id="email-label" for="email">Email:</label>
-                <input type="email" placeholder="Email" name="email" id="email" required/>
-                <label id="number-label" for="numero">Edad:</label>
-                <input type="number" placeholder="#" min="0" max="140" name="number" id="number" value="0"/>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet" />
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Web Form</title>
+</head>
+<!-- links de estilos y otros -->
+<link rel="stylesheet" href="styles.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+<!-- Título del formulario -->
+<header style="text-shadow: 2px 0 0 black">
+    <h1 id="title">Formulario web</h1>
+    <p id="description">Gracias por tomarte el tiempo de contestar éstas preguntas</p>
+</header>
+
+<body>
+    <!-- Inicia del formulario -->
+    <form id="survey-form" method="GET" accept-charset="utf-8" id="form">
+        <!-- Entrada de tipos de datos por texto, email y entrada numérica -->
+        <div id="text">
+            <label id="name-label" for="nombre">Nombre:</label>
+            <input type="text" placeholder="Nombre" name="name" id="name" required />
+            <label id="email-label" for="email">Email:</label>
+            <input type="email" placeholder="Email" name="email" id="email" required />
+            <label id="number-label" for="numero">Edad:</label>
+            <input type="number" placeholder="#" min="0" max="140" name="number" id="number" value="0" />
+        </div>
+        <!-- Selección de datos en forma de cascada dorpdown -->
+        <div id="estudios">
+            <label id="dropdown">Nivel de estudios</label>
+            <select name="estudios" id="dropdown">
+                <option value="Primaria">Primaria</option>
+                <option value="Secundaria">Secundaria</option>
+                <option value="Preparatoria">Preparatoria</option>
+                <option value="Universidad">Universidad</option>
+                <option value="Posgrado">Posgrado</option>
+            </select>
+        </div>
+        <!-- Botones de radio correspondiente a la selección de género -->
+        <div id="genero">
+            <label>Género</label>
+            <div id="radio">
+                <label for="name">Masculino</label>
+                <input style="align-self: center" type="radio" value="Masculino" name="name" />
+                <label for="name">Femenino</label>
+                <input style="align-self: center" type="radio" value="Femenino" name="name" />
             </div>
-            <!-- Selección de datos en forma de cascada dorpdown -->
-            <div id="estudios">
-                <label id="dropdown">Nivel de estudios</label>
-                <select name="estudios" id="dropdown">
-                    <option value="Primaria">Primaria</option>
-                    <option value="Secundaria">Secundaria</option>
-                    <option value="Preparatoria">Preparatoria</option>
-                    <option value="Universidad">Universidad</option>
-                    <option value="Posgrado">Posgrado</option>
-                </select>
+        </div>
+        <!-- Botones tipo checkbox, para seleccionar gustos o aficiones -->
+        <div id="deportes">
+            <label>Deportes favoritos</label>
+            <div id="checkbox">
+                <label for="deportes">Fútbol</label>
+                <input style="align-self: center" type="checkbox" value="Fútbol" name="deportes" />
+                <label for="deportes">Basquétbol</label>
+                <input style="align-self: center" type="checkbox" value="Basquétbol" name="deportes" />
+                <label for="deportes">Box</label>
+                <input style="align-self: center" type="checkbox" value="Box" name="deportes" />
             </div>
-            <!-- Botones de radio correspondiente a la selección de género -->
-            <div id="genero">
-                <label>Género</label>
-                <div id="radio">
-                    <label for="name">Masculino</label>
-                    <input style="align-self:center" type="radio" value="Masculino" name="name"/>
-                    <label for="name">Femenino</label>
-                    <input style="align-self:center" type="radio" value="Femenino" name="name"/>
-                </div>
-            </div>
-            <!-- Botones tipo checkbox, para seleccionar gustos o aficiones -->
-            <div id="deportes">
-                <label>Deportes favoritos</label>
-                <div id="checkbox">
-                    <label for="deportes">Fútbol</label>
-                    <input style="align-self:center" type="checkbox" value="Fútbol" name="deportes"/>
-                    <label for="deportes">Basquétbol</label>
-                    <input style="align-self:center" type="checkbox" value="Basquétbol" name="deportes"/>
-                    <label for="deportes">Box</label>
-                    <input style="align-self:center" type="checkbox" value="Box" name="deportes"/>
-                </div>
-            </div>
-            <!-- area de texta comentarios -->
-            <div id="comentarios">
-                <label for="comentarios">Comentarios adicionales</label>
-                <textarea name="comentarios" placeholder="Comentarios"></textarea>
-                <button id="submit" type="submit">Submit</button>
-            </div>
-        </form>
-    </body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        </div>
+        <!-- area de texta comentarios -->
+        <div id="comentarios">
+            <label for="comentarios">Comentarios adicionales</label>
+            <textarea name="comentarios" placeholder="Comentarios"></textarea>
+            <button id="submit" type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
 </html>
